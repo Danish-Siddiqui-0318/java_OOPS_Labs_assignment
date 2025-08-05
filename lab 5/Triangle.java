@@ -2,9 +2,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Triangle {
-    double sideA;
-    double sideB;
-    double sideC;
+    private double sideA;
+    private double sideB;
+    private double sideC;
     private static int objectCounter;
 
     public Triangle() {
@@ -89,5 +89,4 @@ public class Triangle {
         this.sideC = sideC;
     }
 
-    
 }
